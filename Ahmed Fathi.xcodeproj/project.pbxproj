@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26ACFE718EF873E00797757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26ACFE618EF873E00797757 /* Foundation.framework */; };
+		E26ACFE918EF873E00797757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26ACFE818EF873E00797757 /* CoreGraphics.framework */; };
+		E26ACFEB18EF873E00797757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26ACFEA18EF873E00797757 /* UIKit.framework */; };
+		E26ACFF118EF873E00797757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E26ACFEF18EF873E00797757 /* InfoPlist.strings */; };
+		E26ACFF318EF873E00797757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26ACFF218EF873E00797757 /* main.m */; };
+		E26ACFF718EF873E00797757 /* AFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26ACFF618EF873E00797757 /* AFAppDelegate.m */; };
+		E26ACFFA18EF873E00797757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26ACFF818EF873E00797757 /* Main.storyboard */; };
+		E26ACFFD18EF873E00797757 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26ACFFC18EF873E00797757 /* AFViewController.m */; };
+		E26ACFFF18EF873E00797757 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26ACFFE18EF873E00797757 /* Images.xcassets */; };
+		E26AD00618EF873E00797757 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26AD00518EF873E00797757 /* XCTest.framework */; };
+		E26AD00718EF873E00797757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26ACFE618EF873E00797757 /* Foundation.framework */; };
+		E26AD00818EF873E00797757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26ACFEA18EF873E00797757 /* UIKit.framework */; };
+		E26AD01018EF873E00797757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E26AD00E18EF873E00797757 /* InfoPlist.strings */; };
+		E26AD01218EF873E00797757 /* Ahmed_FathiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26AD01118EF873E00797757 /* Ahmed_FathiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26AD00918EF873E00797757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26ACFDB18EF873E00797757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26ACFE218EF873E00797757;
+			remoteInfo = "Ahmed Fathi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26ACFE318EF873E00797757 /* Ahmed Fathi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahmed Fathi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26ACFE618EF873E00797757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E26ACFE818EF873E00797757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E26ACFEA18EF873E00797757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E26ACFEE18EF873E00797757 /* Ahmed Fathi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ahmed Fathi-Info.plist"; sourceTree = "<group>"; };
+		E26ACFF018EF873E00797757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E26ACFF218EF873E00797757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E26ACFF418EF873E00797757 /* Ahmed Fathi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ahmed Fathi-Prefix.pch"; sourceTree = "<group>"; };
+		E26ACFF518EF873E00797757 /* AFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDelegate.h; sourceTree = "<group>"; };
+		E26ACFF618EF873E00797757 /* AFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDelegate.m; sourceTree = "<group>"; };
+		E26ACFF918EF873E00797757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26ACFFB18EF873E00797757 /* AFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		E26ACFFC18EF873E00797757 /* AFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
+		E26ACFFE18EF873E00797757 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E26AD00418EF873E00797757 /* Ahmed FathiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ahmed FathiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26AD00518EF873E00797757 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E26AD00D18EF873E00797757 /* Ahmed FathiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ahmed FathiTests-Info.plist"; sourceTree = "<group>"; };
+		E26AD00F18EF873E00797757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E26AD01118EF873E00797757 /* Ahmed_FathiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ahmed_FathiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26ACFE018EF873E00797757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26ACFE918EF873E00797757 /* CoreGraphics.framework in Frameworks */,
+				E26ACFEB18EF873E00797757 /* UIKit.framework in Frameworks */,
+				E26ACFE718EF873E00797757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AD00118EF873E00797757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AD00618EF873E00797757 /* XCTest.framework in Frameworks */,
+				E26AD00818EF873E00797757 /* UIKit.framework in Frameworks */,
+				E26AD00718EF873E00797757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26ACFDA18EF873E00797757 = {
+			isa = PBXGroup;
+			children = (
+				E26ACFEC18EF873E00797757 /* Ahmed Fathi */,
+				E26AD00B18EF873E00797757 /* Ahmed FathiTests */,
+				E26ACFE518EF873E00797757 /* Frameworks */,
+				E26ACFE418EF873E00797757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26ACFE418EF873E00797757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26ACFE318EF873E00797757 /* Ahmed Fathi.app */,
+				E26AD00418EF873E00797757 /* Ahmed FathiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26ACFE518EF873E00797757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26ACFE618EF873E00797757 /* Foundation.framework */,
+				E26ACFE818EF873E00797757 /* CoreGraphics.framework */,
+				E26ACFEA18EF873E00797757 /* UIKit.framework */,
+				E26AD00518EF873E00797757 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E26ACFEC18EF873E00797757 /* Ahmed Fathi */ = {
+			isa = PBXGroup;
+			children = (
+				E26ACFF518EF873E00797757 /* AFAppDelegate.h */,
+				E26ACFF618EF873E00797757 /* AFAppDelegate.m */,
+				E26ACFF818EF873E00797757 /* Main.storyboard */,
+				E26ACFFB18EF873E00797757 /* AFViewController.h */,
+				E26ACFFC18EF873E00797757 /* AFViewController.m */,
+				E26ACFFE18EF873E00797757 /* Images.xcassets */,
+				E26ACFED18EF873E00797757 /* Supporting Files */,
+			);
+			path = "Ahmed Fathi";
+			sourceTree = "<group>";
+		};
+		E26ACFED18EF873E00797757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E26ACFEE18EF873E00797757 /* Ahmed Fathi-Info.plist */,
+				E26ACFEF18EF873E00797757 /* InfoPlist.strings */,
+				E26ACFF218EF873E00797757 /* main.m */,
+				E26ACFF418EF873E00797757 /* Ahmed Fathi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26AD00B18EF873E00797757 /* Ahmed FathiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26AD01118EF873E00797757 /* Ahmed_FathiTests.m */,
+				E26AD00C18EF873E00797757 /* Supporting Files */,
+			);
+			path = "Ahmed FathiTests";
+			sourceTree = "<group>";
+		};
+		E26AD00C18EF873E00797757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E26AD00D18EF873E00797757 /* Ahmed FathiTests-Info.plist */,
+				E26AD00E18EF873E00797757 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26ACFE218EF873E00797757 /* Ahmed Fathi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26AD01518EF873E00797757 /* Build configuration list for PBXNativeTarget "Ahmed Fathi" */;
+			buildPhases = (
+				E26ACFDF18EF873E00797757 /* Sources */,
+				E26ACFE018EF873E00797757 /* Frameworks */,
+				E26ACFE118EF873E00797757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ahmed Fathi";
+			productName = "Ahmed Fathi";
+			productReference = E26ACFE318EF873E00797757 /* Ahmed Fathi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26AD00318EF873E00797757 /* Ahmed FathiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26AD01818EF873E00797757 /* Build configuration list for PBXNativeTarget "Ahmed FathiTests" */;
+			buildPhases = (
+				E26AD00018EF873E00797757 /* Sources */,
+				E26AD00118EF873E00797757 /* Frameworks */,
+				E26AD00218EF873E00797757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26AD00A18EF873E00797757 /* PBXTargetDependency */,
+			);
+			name = "Ahmed FathiTests";
+			productName = "Ahmed FathiTests";
+			productReference = E26AD00418EF873E00797757 /* Ahmed FathiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26ACFDB18EF873E00797757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ahmed Fathi";
+				TargetAttributes = {
+					E26AD00318EF873E00797757 = {
+						TestTargetID = E26ACFE218EF873E00797757;
+					};
+				};
+			};
+			buildConfigurationList = E26ACFDE18EF873E00797757 /* Build configuration list for PBXProject "Ahmed Fathi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26ACFDA18EF873E00797757;
+			productRefGroup = E26ACFE418EF873E00797757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26ACFE218EF873E00797757 /* Ahmed Fathi */,
+				E26AD00318EF873E00797757 /* Ahmed FathiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26ACFE118EF873E00797757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26ACFFF18EF873E00797757 /* Images.xcassets in Resources */,
+				E26ACFF118EF873E00797757 /* InfoPlist.strings in Resources */,
+				E26ACFFA18EF873E00797757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AD00218EF873E00797757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AD01018EF873E00797757 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26ACFDF18EF873E00797757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26ACFF318EF873E00797757 /* main.m in Sources */,
+				E26ACFFD18EF873E00797757 /* AFViewController.m in Sources */,
+				E26ACFF718EF873E00797757 /* AFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AD00018EF873E00797757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AD01218EF873E00797757 /* Ahmed_FathiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26AD00A18EF873E00797757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26ACFE218EF873E00797757 /* Ahmed Fathi */;
+			targetProxy = E26AD00918EF873E00797757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26ACFEF18EF873E00797757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26ACFF018EF873E00797757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E26ACFF818EF873E00797757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26ACFF918EF873E00797757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26AD00E18EF873E00797757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26AD00F18EF873E00797757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26AD01318EF873E00797757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E26AD01418EF873E00797757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26AD01618EF873E00797757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ahmed Fathi/Ahmed Fathi-Prefix.pch";
+				INFOPLIST_FILE = "Ahmed Fathi/Ahmed Fathi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E26AD01718EF873E00797757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ahmed Fathi/Ahmed Fathi-Prefix.pch";
+				INFOPLIST_FILE = "Ahmed Fathi/Ahmed Fathi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E26AD01918EF873E00797757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ahmed Fathi.app/Ahmed Fathi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ahmed Fathi/Ahmed Fathi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ahmed FathiTests/Ahmed FathiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E26AD01A18EF873E00797757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ahmed Fathi.app/Ahmed Fathi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ahmed Fathi/Ahmed Fathi-Prefix.pch";
+				INFOPLIST_FILE = "Ahmed FathiTests/Ahmed FathiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26ACFDE18EF873E00797757 /* Build configuration list for PBXProject "Ahmed Fathi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AD01318EF873E00797757 /* Debug */,
+				E26AD01418EF873E00797757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26AD01518EF873E00797757 /* Build configuration list for PBXNativeTarget "Ahmed Fathi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AD01618EF873E00797757 /* Debug */,
+				E26AD01718EF873E00797757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E26AD01818EF873E00797757 /* Build configuration list for PBXNativeTarget "Ahmed FathiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AD01918EF873E00797757 /* Debug */,
+				E26AD01A18EF873E00797757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26ACFDB18EF873E00797757 /* Project object */;
+}
