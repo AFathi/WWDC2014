@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AFViewController : UIViewController
-
+#import <QuartzCore/QuartzCore.h>
+#import <CoreMotion/CoreMotion.h>
+@interface AFViewController : UIViewController{
+    IBOutlet UIView *timemachineview;
+    IBOutlet UIView *parallaxview;
+    IBOutlet UILabel *AF;
+    IBOutlet UILabel *tm;
+    IBOutlet UILabel *tip;
+    IBOutlet UIButton *clockbutton;
+    IBOutlet UIButton *timemachine;
+    IBOutlet UIButton *summaryo;
+}
+- (IBAction)enter:(id)sender;
+- (IBAction)summaryaction:(id)sender;
+-(void)hidee;
 @end
