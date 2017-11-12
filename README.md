@@ -7,6 +7,7 @@
 
 My WWDC 2014 Scholarship app [Accepted]
 
+>I've organized my WWDC submissions from year 2014 - 2016 to help new applicants get inspired when they apply in the future 🤗❤️
 ## Perview
 ![main](http://ahmedbekhit.com/wwdc14/main.png)
 ![machine](http://ahmedbekhit.com/wwdc14/machine.png)
